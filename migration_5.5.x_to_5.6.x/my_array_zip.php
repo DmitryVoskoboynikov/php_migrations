@@ -13,7 +13,7 @@ function array_zip(...$arrays) {
         }
     }
 
-    return implode(', ', array_merge(...array_values($result)));
+    return implode(', ', array_merge(...$result));
 }
 
 $a = array(1, 5, 9, 13);
